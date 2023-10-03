@@ -1,9 +1,105 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "categories": [
+    {
+      "id": 1,
+      "name": "Arroz y menestras"
+    },
+    {
+      "id": 2,
+      "name": "Tallarines y fideos"
+    },
+    {
+      "id": 3,
+      "name": "Comida de animales"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "products": [
+    {
+      "id": 1,
+      "name": "Arroz Extra Costeño 750g",
+      "price": 4.5,
+      "description": "Desc",
+      "image": "https://wongfood.vteximg.com.br/arquivos/ids/660922-1000-1000/Arroz-Extra-Coste-o-Bolsa-750-g-1-4456.jpg?v=638312817732600000",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Arroz Integral Vallenorte 750g",
+      "price": 5.2,
+      "description": "Desc",
+      "image": "https://wongfood.vteximg.com.br/arquivos/ids/649206-230-230/Arroz-Integral-Vallenorte-750g-1-351653643.jpg?v=638267026189430000",
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "Arroz Arborio Paisana Bolsa 1 kg",
+      "price": 14.9,
+      "description": "Desc",
+      "image": "https://wongfood.vteximg.com.br/arquivos/ids/179051-1000-1000/Arroz-Arborio-Paisana-Bolsa-1-kg-1-130528.jpg?v=636445158328630000",
+      "categoryId": 1
+    },
+    {
+      "id": 4,
+      "name": "Fideos Cuisine &Co Corbata 250g",
+      "price": 1.8,
+      "description": "Desc",
+      "image": "https://wongfood.vteximg.com.br/arquivos/ids/622665-1000-1000/Fideos-Cuisine-Co-Corbata-250g-1-351641465.jpg?v=638145202918100000",
+      "categoryId": 2
+    },
+    {
+      "id": 5,
+      "name": "Sopa de Gallina Criolla con Fideos Ajinomen Sobre 80 g",
+      "price": 1.6,
+      "description": "Desc",
+      "image": "https://wongfood.vteximg.com.br/arquivos/ids/343654-1000-1000/187432006-1.jpg?v=637152305000900000",
+      "categoryId": 2
+    },
+    {
+      "id": 6,
+      "name": "Tallarín Molitalia 450g",
+      "price": 3.7,
+      "description": "Desc",
+      "image": "https://wongfood.vteximg.com.br/arquivos/ids/623515-1000-1000/frontal-3146.jpg?v=638150169659030000",
+      "categoryId": 2
+    },
+    {
+      "id": 7,
+      "name": "Fideo Spaghetti Nicolini 450g",
+      "price": 3.8,
+      "description": "Desc",
+      "image": "https://wongfood.vteximg.com.br/arquivos/ids/542295-1000-1000/Fideo-Spaghetti-Nicolini-450g-1-299745273.jpg?v=637874024740030000",
+      "categoryId": 2
+    },
+    {
+      "id": 8,
+      "name": "Sémola Molitalia Bolsa 200 g",
+      "price": 2.0,
+      "description": "Desc",
+      "image": "https://wongfood.vteximg.com.br/arquivos/ids/364131-1000-1000/19797-01-7521.jpg?v=637281108230000000",
+      "categoryId": 2
+    },
+    {
+      "id": 9,
+      "name": "Alimento para Perros Adulto Pet's Fun Cereales y Carne 15kg",
+      "price": 89.9,
+      "description": "The latest Apple Watch Series 6",
+      "image": "https://wongfood.vteximg.com.br/arquivos/ids/658623-1000-1000/Alimento-para-Perros-Adulto-Pet-s-Fun-Cereales-y-Carne-15kg-1-351641796.jpg?v=638307849894400000",
+      "isPromotional": true,
+      "promotionalPrice": 85.9,
+      "promotionalImages": {
+        "small": "https://wongfood.vtexassets.com/arquivos/BHM3-M-REG-19-09.jpg?v=638313572604200000",
+        "large": "https://wongfood.vtexassets.com/arquivos/BH3-M-REG-19-09.jpg?v=638313572584530000"
+      },
+      "categoryId": 3
+    },
+    {
+      "id": 10,
+      "name": "Comida para Perros Ricocan Adultos Multisabores 1 kg",
+      "price": 15.5,
+      "promotionalPrice": 13.2,
+      "description": "Desc",
+      "image": "https://wongfood.vteximg.com.br/arquivos/ids/371220-1000-1000/387014-01-1421.jpg?v=637312320471600000",
+      "categoryId": 3
+    }
+  ]
 }
